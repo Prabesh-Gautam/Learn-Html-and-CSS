@@ -1,0 +1,15 @@
+#ordered-list{
+    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+}
+#unordered-list{
+    list-style-type: circle;
+    list-style-type: square;
+}
+#multiple-line{
+    width: 500px;
+    list-style-position: inside;
+    list-style-type: upper-alpha;
+    padding-left: 0px;
+}

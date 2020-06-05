@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-navbar{
+    height: 30%;
+    position: relative;
+    box-shadow: 0px 0px 6px black;
+    height: 100px;
+}
+#logodiv{
+    display: inline-block;
+    width: 20%;
+    margin-left: 10px;
+}
+#logo{
+    height: 100px;
+    width: 150px;
+}
+#item-list{
+    display: inline-block;
+    width: 70%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+}
+#item-list>ul{
+    float: right;
+}
+#item-list>ul>li{
+    list-style-type: none;
+    display: inline;
+    margin-right:20px;
+    font-size: 16px;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+}
+#item-list>ul>li:hover{
+    color: maroon;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px maroon;
+}

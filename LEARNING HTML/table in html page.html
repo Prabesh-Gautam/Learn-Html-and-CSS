@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables in html</title>
+    <style>
+
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            font-size: 20px;
+            background-color: lightyellow;
+            margin:45px;
+            margin-left: 300px;
+           
+            
+            
+        }
+        th{
+            background-color: lightskyblue;
+            padding: 16px;
+
+        }
+        td{
+            padding: 16px;
+            text-transform: capitalize;
+            
+            
+           
+        }
+
+    </style>
+</head>
+<body>
+    <table draggable="true" >
+        <caption style="text-transform: uppercase; font-weight: bold;">routine of class ten.</caption>
+        <tr>
+            <th colspan="1"></th>
+            <th>sunday</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+            <th>saturday</th>
+            <th rowspan="11" ></th>
+        </tr>
+        <tr>
+            
+            <th>1<sup>st</sup></th>
+            <td>English</td>
+            <td>Maths</td>
+            <td>science</td>
+            <td>nepali</td>
+            <td>health</td>
+            <td>optional </td>
+            <td>social</td>
+        </tr>
+        <tr>
+            <th>2<sup>nd</sup></th>
+            <td>English</td>
+            <td>Maths</td>
+            <td>health</td>
+            <td>optional </td>
+            <td>social</td>
+            <td>science</td>
+            <td>nepali</td>
+        </tr>
+        <tr>
+            <th class="breaks" colspan="8" style="text-align: center; font-weight: bolder; text-transform: capitalize;">short break</th>
+        </tr>
+        <tr>
+            <th>3<sup>rd</sup></th>
+            <td>Maths</td>
+            <td>science</td>
+            <td>English</td>
+            <td>health</td>
+            <td>social</td>
+            <td>optional </td>
+            <td>nepali</td>
+        </tr>
+        <tr>
+            <th>4<sup>th</sup></th>
+            <td>Maths</td>
+            <td>science</td>
+            <td>English</td>
+            <td>health</td>
+            <td>social</td>
+            <td>optional </td>
+            <td>nepali</td>
+        </tr>
+        <tr>
+            <th class="breaks" colspan="8" style="text-align: center; font-weight: bolder; text-transform: capitalize">Lunch Break</th>
+        </tr>
+        <tr>
+            <th>5<sup>th</sup></th>
+            <td>Maths</td>
+            <td>English</td>
+            <td>science</td>
+            <td>health</td>
+            <td>nepali</td>
+            <td>social</td>
+            <td>optional </td>
+        </tr>
+        <tr>
+            <th>6<sup>th</sup></th>
+            <td>optional </td>
+            <td>Maths</td>
+            <td>science</td>
+            <td>English</td>
+            <td>health</td>
+            <td>nepali</td>
+            <td>social</td>
+        </tr>
+        <tr>
+            <th>7<sup>th</sup></th>
+            <td>Maths</td>
+            <td>science</td>
+            <td>English</td>
+            <td>nepali</td>
+            <td>optional </td>
+            <td>social</td>
+            <td>health</td>
+        </tr>
+        <tr>
+            <th class="breaks" colspan="8" style="text-align: center; font-weight: bolder; text-transform: capitalize">Holiday</th>
+        </tr>
+    </table>
+</body>
+</html>

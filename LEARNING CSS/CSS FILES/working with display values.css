@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+.image-item{
+    width: 400px;
+    height: 250px;
+}
+.image-wrapper{
+    display: inline;
+}
+.menu-item{
+    display: block;
+    visibility: hidden;
+}

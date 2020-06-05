@@ -1,0 +1,36 @@
+#btn-practice{
+    background-color: lightblue;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+#btn-practice:hover{
+    background-color: lightcoral;
+    color: black;
+}
+#btn-login{
+    background-color: white;
+    border: 2px solid lightblue;
+    padding: 16px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+#btn-login:hover{
+    background-color: lightcoral;
+
+}
+#disabled{
+    background-color: lightskyblue;
+    border:none;
+    padding: 16px;
+    border-radius: 5px;
+    outline: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+
+
+
+}

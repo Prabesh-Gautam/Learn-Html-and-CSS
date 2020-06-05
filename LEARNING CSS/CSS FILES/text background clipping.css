@@ -1,0 +1,17 @@
+h1{
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    text-transform: uppercase;
+
+    /* ==========Background clipping============= */
+    background-image: url('../assets/Image.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}

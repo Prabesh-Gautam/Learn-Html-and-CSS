@@ -1,0 +1,12 @@
+/* the last element in css always overrides if previously existing property of the same element*/
+#first-paragraph{
+    border-style: dashed;
+    border-width: 2px;
+    border-color: lightcoral;
+    border-right: dotted;
+    /*border-top: double;
+    border-left: dashed;
+    border-bottom: groove;*/
+    border: 2px dashed red;
+    border-radius: 10px;
+}

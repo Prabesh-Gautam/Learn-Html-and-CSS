@@ -1,0 +1,28 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.divisions{
+    width: 100%;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0px auto;
+
+}
+#img-google{
+    width: 100%;
+    height: 300px;
+}
+/* #divpara{
+}
+#titlediv{
+} */
+#title{
+    text-align: center;
+    text-transform: uppercase;
+}
+.desc{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+}

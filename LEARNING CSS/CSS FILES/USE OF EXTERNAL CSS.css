@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+#image-pic{
+    width: 100%; 
+    height:500px ;
+
+}
+#heading{
+    text-align: center;
+     font-size: 48px;
+}
+.details{
+    font-size: 24px; 
+    text-align: center;
+    line-height: 1.5;
+    padding-left: 34px; 
+    padding-right: 32px;
+
+}

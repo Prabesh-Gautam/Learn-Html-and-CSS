@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact details</title>
+    <style>
+          body{
+            margin: 0px;
+            padding: 10px;
+            background-color: black;
+            color: white;
+        }
+        #main-header{
+            color: blanchedalmond;
+            background-color: transparent;
+            margin-top: 10px;
+            height: 100px;
+        }
+        #nav-bar{
+            padding: 10px;
+        }
+        #nav-items{
+            
+            width: 150px;
+            margin: auto;
+            padding: 10px;
+            
+        }
+        #nav-items li{
+            list-style: none;
+            margin-left: auto;
+            padding: 5px;
+            text-transform: capitalize;
+            display: inline-block;
+
+
+        }
+        #nav-items li a{
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+        #nav-items li a:hover{
+            text-decoration: none;
+            color:red;
+            font-size: larger;
+        }
+        #contact-form{
+            background-color: lightcoral;
+            width: 250px;
+            margin: auto;
+            padding: 10px;
+        }
+        .input-fields{
+            color: black;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            text-align: center;
+            padding: 5px;
+            font-weight: bold;
+        }
+        #clkbtn{
+            padding: 10px;
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+           
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <nav id="nav-bar">
+            <div id="nav-items">
+                <ul>
+                    <li><a href="./index.html">home</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Want to visit those places? Please, fill in the form to contact.</h1>
+        <form id="contact-form" action="">
+        <div class="input-fields">
+            Username<br>
+            <input type="text" name="Full name"><br>
+         </div>
+        <div class="input-fields">
+            Email <br>
+            <input type="text" name="email"><br>
+        </div>
+        <div class="input-fields">
+            Contact<br>
+            <input type="number" name="contact"><br>    
+        </div>
+        <div class="input-fields">
+            Gender:<br>
+            <input type="radio" name="male" value="male"  > Male
+            <input type="radio" name="female" value="female"> female<br>
+        </div>
+        <div id="clkbtn" class="input-fields">
+            <input type="submit" value="Submit">
+            <input type="button" value="Clear">
+        </div>
+        </form>
+    </main>
+</body>
+</html>

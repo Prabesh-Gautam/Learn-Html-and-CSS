@@ -1,0 +1,47 @@
+main{
+    height: 100%;
+}
+footer{
+    height: 200px;
+}
+.article-section{
+    width: 900px;
+    background-color: rgb(207, 199, 199);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    box-shadow: 0px 4px 2px black;
+
+ }
+ /* descedant selector */
+/* article p{
+    font-size: 20px;
+    background-color: lightyellow;
+    
+}  */
+
+/* child selector */
+/* article > p{
+    background-color: lightyellow;
+} */
+
+/* adjacent sibling selector */
+  /* div + p{
+     background-color: lightyellow;
+ } 
+ h1 + p{
+     background-color: lightyellow;
+ } */
+
+/* general sibling  selector */
+div ~ p{
+    background-color: lightyellow;
+}
+
+
+
+

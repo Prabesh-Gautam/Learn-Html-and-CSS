@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favroite places</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 10px;
+            background-color: black;
+        }
+        #main-header{
+            color: blanchedalmond;
+            background-color: transparent;
+            margin-top: 10px;
+            height: 100px;
+        }
+        #nav-bar{
+            padding: 10px;
+        }
+        #nav-items{
+            
+            width: 350px;
+            margin: auto;
+            padding: 10px;
+            
+        }
+        #nav-items li{
+            list-style: none;
+            margin-left: auto;
+            padding: 5px;
+            text-transform: capitalize;
+            display: inline-block;
+
+
+        }
+        #nav-items li a{
+            text-decoration: none;
+            color: white;
+            font-size: larger;
+        }
+        #nav-items li a:hover{
+            text-decoration: none;
+            color:red;
+            font-size: larger;
+        }
+        /*=============main body section cover image section====================*/
+        #cover-image{
+            text-align: center;
+            color: white;
+            height: 400px;
+            width: 100%;
+            margin-top: 20px ;
+        }
+        #covimg{
+            height: 400px;
+            width: 100%;
+        }
+
+        #gallery{
+            background-color: transparent;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        #gallery-table{
+            width: 750px ;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #gallery-table .box{
+            
+            height: 250px;
+        }
+       
+        #gallery-table td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        #gallery-table .gallery-images{
+            height: 200px;
+            width: 250px;
+            padding: 0px;
+            margin: 0px;
+        }
+        #gallery-table td .caption{
+            width:250;
+            font-size: small;
+            font-style: italic;
+            text-align: center;
+            line-height: 1.5;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <header id="main-header">
+        <nav id="nav-bar">
+            <div id="nav-items">
+                <ul>
+                    <li><a href="#main-header">home</a></li>
+                    <li><a href="#gallery">places</a></li>
+                    <li><a href="./contact form.html">contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="cover-image">
+            <img id="covimg" src="./images/swayambhu.jpg" alt="">
+        </section>
+        <section id="gallery">
+            <table id="gallery-table">
+                <tr>
+                <div class="box">
+                    <td> <a href="./detailpage.html"> <img class="gallery-images" src="./images/ilam.jpg" alt="ilam">
+                    <p class="caption">One of the beautiful place in eastern part of nepal</p>
+                    </td>
+                </div>
+            </a>
+                <div class="box">
+                    <td> <a href="./detailpage.html"><img class="gallery-images" src="./images/pashupatinath.jpg" alt="pashupatinath">
+                        <p class="caption">Enlisted in the world heritage site the pashupatinath temple.</p></td>
+                    </div>
+                </a>
+                <div class="box">
+                    <td> <a href="./detailpage.html"><img class="gallery-images" src="./images/pokhara.jpg" alt="pokhara">
+                        <p class="caption">The place where the queen of lakes is situated, pokhara.</p></td>
+                    </div></a>
+                </tr>
+                <tr>  
+                <div class="box">  
+                    <td> <a href="./detailpage.html"><img class="gallery-images" src="./images/mustang.jpg" alt="mustang">
+                        <p class="caption">The dream place of every nepali youth and lots of foreigner, Mustang.</p></td>
+                </div> </a>
+                <div class="box">
+                    <td> <a href="./detailpage.html"><img class="gallery-images" src="./images/chitwan.jpg" alt="chitwan">
+                        <p class="caption">Popular for one-horned rhino, Chitwan national park.</p></td>
+                    </div></a>
+                
+                <div class="box">
+                    <td> <a href="./detailpage.html"> <img class="gallery-images" src="./images/lumbini.jpg" alt="lumbini">
+                        <p class="caption">The birth place of Gautam Buddha, Lumbini nepal</p> </td>
+                    </div></a>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

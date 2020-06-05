@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align-items: stretch; */
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; */
+
+
+}
+.items{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}

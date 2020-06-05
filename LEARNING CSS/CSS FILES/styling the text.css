@@ -1,0 +1,19 @@
+h1, h2{
+    color: rgb(46, 209, 155);
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+p{
+    color: lightcoral;
+    text-align: center;
+    /*text-decoration: line-through;*/
+    /*letter-spacing: 1px;*/
+    word-spacing: 1px;
+    line-height: 2;
+    /*need to add the link of the font in the html file.*/
+    font-family: 'Baloo 2', cursive;
+
+}

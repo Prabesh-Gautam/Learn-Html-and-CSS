@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GET and POST method form in html</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: lightskyblue;
+
+        }
+        #titletext{
+            color: lightcoral;
+            
+        }
+        #register_form{
+            width: 300px;
+            background-color: lightyellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            padding: 10px;
+        }
+        label{
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .input-fields{
+            width: 100%;
+            padding-bottom: 2px;
+            padding-top: 2px;
+            margin-top: 5px;
+            background: transparent;
+       
+        }
+        .section{
+            margin-top: 10px;
+            width: 100%;
+
+        }
+        #checktype{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+        <form action="" id="register_form" method="GET">
+            <h2 id="titletext">Register form</h2>
+            <div class="section" >
+                <label for="Username">Username:</label><br>
+                <input class="input-fields" type="text" name="full-name" placeholder="Enter your full name"><br>
+            </div>
+            <div class="section">
+                <label for="email">Email:</label><br>
+                <input class="input-fields" type="text" name="email" placeholder="Enter the valid email address"><br>
+            </div>
+            <div class="section">
+                <label for="password">Password:</label><br>
+                <input class="input-fields" type="password" name="password" placeholder="password must be 1-9/ A-Z/ a-z"><br>
+            </div>
+            <div class="section">
+                <label for="confirm-password">Confirm Password:</label><br>
+                <input class="input-fields" type="password" name=" retype-password" placeholder="Enter what you entered before."><br>
+            </div>
+        <div class="section">
+            <label for="gender">Gender:</label><br>
+            <input type="radio" name="male" value="male"  > Male
+            <input type="radio" name="female" value="female"> female
+            <input type="radio" name="others" value="others"> others<br>
+        </div>
+        <div class="section">
+            <label for="security-question">Security Question:</label><br>
+            <select name="security question" id="">
+                <option value="option-default"> select the security questions</option>
+                <option value="bith-place">what is the palce of the town you were born?</option>
+                <option value="fav-teacher">what is you favriote teacher name?</option>
+                <option value="uncle name">what is yout uncle's name?</option>
+                <option value="age">what is your age?</option>
+            </select>
+        </div>
+        <div class="section">
+            <textarea name="textarea" id="answer" cols="38" rows="6"></textarea>
+        </div>
+        <div class="section">
+            <input id="checktype" type="checkbox" value="tickmark"> 
+             I have read the terms and conditon and I agree to continue.
+        </div>
+        <div class="section" id="final-button">
+            <input type="submit" value="Register">
+        </div>
+        </form>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic elements</title>
+    <style>
+        #main-header{
+            background-color: lightseagreen; 
+             padding: 10px;
+             
+        }
+        #nav-bar{
+            text-align: right;
+            background-color: lightpink ;
+            padding: 5px;
+            
+        }
+        #nav-bar span{
+            background-color: magenta;
+            font-size: xx-large;
+            
+        }
+        #nav-bar span a{
+            text-decoration: none;
+            color: black;
+        }
+
+        #main-body{
+            margin-top: 30px;
+            background-color: lightseagreen;
+            padding: 20px;
+            
+        }
+
+        #main-section {
+            background-color: lightpink;
+            padding: 24px;
+            
+            
+            
+            
+        }
+        #main-section .content{
+            background-color: lightseagreen;
+            margin: 20px;
+            border: 2px red;
+            padding: 20px;
+            font-size: 15px;
+            
+            
+        }
+        #end{
+            background-color:lightseagreen;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <nav id="nav-bar"  >
+            <span><a href="#">menu1</a></span>
+            <span><a href="#">menu1</a></span>
+            <span><a href="#">menu1</a></span>
+        </nav>
+    </header>
+    <main id="main-body">
+        <section id="main-section" >
+            <article class="content">
+                <header>
+                    <h3>Article title 1 </h3>
+                    <a href="#">authr 1</a>
+                </header>
+                <p>
+                    This is the paragraph section of the article one. this article is divided into two parts
+                    one is the header section and another is the paragraph section. 
+                </p>
+
+            </article>
+            <article class="content">
+                <header>
+                <h3> Article 2</h3>
+                <a href=""> auther 2</a>
+            </header>
+                <p>
+                    This is the paragraph section of the article two. This article is divided into two parts
+                    one is the header section and another is the paragraph section. 
+                </p>
+
+            </article>
+        </section>
+    </main>
+    <footer id="end">
+        <p>copyright@prabeshgautam</p>
+    </footer>
+</body>
+</html>

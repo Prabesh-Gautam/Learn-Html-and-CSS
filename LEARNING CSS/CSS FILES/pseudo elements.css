@@ -1,0 +1,27 @@
+article>p{
+    color:lightsalmon;
+}
+article>p::first-line{
+    color: blue;
+}
+article>p:first-of-type::first-line{
+    color: green;
+    letter-spacing: 1px;
+}
+article>p:first-of-type::first-letter{
+    font-size: 25px;
+    color: red;
+}
+article>p::selection{
+    background-color: teal;
+    color: black;
+}
+
+/* article>p::before{
+    content:"'";
+    /* content: url(); */
+}
+article>p::after{
+    content:"'";
+} */
+

@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: lightblue;
+    height: 80px;
+    position: sticky;
+    top: 0%;
+}
+footer{
+    background-color: lightcoral;
+    height: 200px;
+}
+main{
+    padding: 16px 10%;
+}
+aside{
+    width: 29%;
+    background-color: rgb(34, 105, 105);
+    height: 450px;
+    display: inline-block;
+    margin-right: 1%;
+}
+section{
+    width: 69%;
+    height: 450px;
+    background-color: lightgreen;
+    display: inline-block;
+}

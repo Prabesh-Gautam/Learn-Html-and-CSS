@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form practicing</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        #main-form{
+            width: 500px;
+            background-color:white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #titletext{
+            text-align: center;
+            padding: 10px;
+            text-transform: capitalize;
+        }
+        .logo{
+            height: 30px;
+            width: 30px;
+            margin-left: 20px;
+        }
+        #logo-division{
+            margin: 0px;
+            background-color:whitesmoke;
+            align-items: center;
+        }
+        #logodiv{
+            
+            width: 250px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div{
+            padding: 10px;
+            margin: 20px;
+        }
+        .inputbox{
+            width: 100%;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font-size: 16px;
+            padding: 5px;
+        }
+        #reg-button{
+            padding: 10px;
+            background-color: rgb(55, 173, 212);
+            padding: 10px;
+
+           
+        }
+        #button-division{
+            width: 80px;
+            margin: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <form id="main-form" action="" method="POST">
+        <h1 id="titletext" >register</h1>
+        <div id="logo-division">
+            <div id="logodiv">
+        <span><img class="logo" src="../Images/facebook_logo.png" alt=""></span>
+         <span><img class="logo" src="../Images/google_logo.png" alt=""></span>
+          <span><img class="logo" src="../Images/github_logo.png" alt=""></span>
+           <samp><img class="logo" src="../Images/linkdin_logo.png" alt=""></span><br>
+            </div>
+        </div>
+            <div>
+                <input class="inputbox" type="text" name="username" placeholder="Username" required >
+            </div>                      
+            <div>
+                <input class="inputbox" type="email" name="email" id="" placeholder="Email" required>
+            </div>
+            <div>
+                <input class="inputbox" type="password" name="password" id="" placeholder="Password" maxlength="8">
+            </div>
+            <div>
+                <input class="inputbox" type="password" name="password" placeholder="Confirm Password" required maxlength="8">
+            </div>
+            <div id="button-division">
+                <input id="reg-button" type="submit" value="Register">
+            </div>
+        
+    </form>
+</body>
+</html>

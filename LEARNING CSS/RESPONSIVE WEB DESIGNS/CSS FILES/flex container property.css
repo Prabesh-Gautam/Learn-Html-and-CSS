@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+#container{
+    width: 100vw;
+    background-color: lightblue;
+    box-sizing: border-box;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items{
+    background-color: lightcoral;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    padding: 32px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}

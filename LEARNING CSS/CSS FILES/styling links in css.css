@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+#topbar{
+    background-color: lightcoral;
+    padding: 20px;
+}
+.menuitem{
+    font-size: 24px;
+    margin-right: 24px;
+    color: black;
+    text-decoration: none;
+}
+/*this must come in the sequence link,visited,hover,and active.*/
+
+.menuitem:link{
+    color: blue;
+}
+.menuitem:visited{
+    color: green;
+}
+.menuitem:hover{
+    color: red;
+}
+.menuitem:active{
+    color: yellow;
+}

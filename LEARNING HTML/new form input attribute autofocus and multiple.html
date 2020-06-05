@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in html</title>
+</head>
+<body>
+    <!--autofocus and multiple attribute has been introduced-->
+        <form action="">
+            <div>
+            Username:<br>
+            <input type="text" name="Full name" placeholder="fullname" autofocus><br>
+            Email: <br>
+            <input type="text" name="email" placeholder="email"><br>
+            Password:<br>
+            <input type="password" name="password"><br>
+            Confirm Password:<br>
+            <input type="password" name=" retype-password"><br>
+        </div>
+        <div>
+            Gender:<br>
+            <input type="radio" name="male" value="male"  > Male
+            <input type="radio" name="female" value="female"> female
+            <input type="radio" name="others" value="others"> others<br>
+        </div>
+        <div>
+            Security Question:<br>
+            <select name="security question" id="" multiple>
+                <option value="option-default"> select the security questions</option>
+                <option value="bith-place">what is the palce of the town you were born?</option>
+                <option value="fav-teacher">what is you favriote teacher name?</option>
+                <option value="uncle name">what is yout uncle's name?</option>
+                <option value="age">what is your age?</option>
+            </select>
+        </div>
+        <div>
+            <textarea name="textarea" id="answer" cols="38" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" value="tickmark"> I have read the terms and conditon and I agree the terms and conditon.
+        </div>
+        <div>
+            <input type="button" value="Register">
+            <input type="button" value="Clear">
+        </div>
+        </form>
+</body>
+</html>

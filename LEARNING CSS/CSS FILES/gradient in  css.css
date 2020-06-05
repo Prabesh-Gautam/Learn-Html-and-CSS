@@ -1,0 +1,41 @@
+#div1{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, #cc1111, #bdca06);
+}
+#div2{
+    margin-top: 48px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(45deg, #cc1111, #bdca06);
+}
+#div3{
+    margin-top: 48px;
+    background: linear-gradient(180deg, #cc1111, #bdca06);
+    width: 100%;
+    height: 100px;
+}
+#div4{
+    margin-top: 48px;
+    background: radial-gradient(#cc1111, #bdca06);
+    width: 100%;
+    height: 100px;
+}
+#div5{
+    margin-top: 48px;
+    background: radial-gradient(circle, #cc1111, #bdca06);
+    width: 100%;
+    height: 100px;
+}
+#div6{
+    margin-top: 48px;
+    background: radial-gradient(circle closest-side, #cc1111, #bdca06);
+    width: 100%;
+    height: 100px;
+}
+#div7{
+    margin-top: 48px;
+    background: radial-gradient(circle, #cc1111, #bdca06);
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,11 @@
+#img-pic{
+    width: 600px;
+    height: 500px;
+}
+#wrapper{
+    width: 600px;
+    height: 600px;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+}
